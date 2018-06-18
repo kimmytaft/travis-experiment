@@ -1,4 +1,5 @@
 language: python
+sudo: required
 
 before_install:
   - curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_helm.sh
